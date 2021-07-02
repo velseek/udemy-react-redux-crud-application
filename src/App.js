@@ -1,16 +1,7 @@
-
-import './App.css';
+import React, {Component} from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+    return React.createElement("h1",null,"Hello world!!");
 }
 
 export default App;
